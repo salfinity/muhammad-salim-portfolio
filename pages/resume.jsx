@@ -22,7 +22,7 @@ const resume = () => {
         <span className='text-red-600'>Res</span><span>um</span><span className='text-red-600'>e</span>
        </h2>
        <div className='grid grid-cols-3 h-[1280px] sm:h-auto pb-8'>
-        <div class="bg-slate-800">
+        <div className="bg-slate-800">
           <div className='flex flex-col'>
           <img draggable={false} src='/assets/resume.svg' alt='profile' className='w-54 h-58 object-cover pt-12'/>
             <div className='text-center px-6 text-white pt-12 text-xl tracking-wider'>
@@ -47,7 +47,7 @@ const resume = () => {
               </div>
             <div className='text-start px-1 text-white pt-12 text-xl tracking-wider'>
               <p className='uppercase underline font-bold'>interests</p>
-              <div class="grid grid-rows-3 grid-flow-col pt-2 gap-2 text-sm">
+              <div className="grid grid-rows-3 grid-flow-col pt-2 gap-2 text-sm">
                 <div>Web design</div>
                 <div>Video editing</div>
                 <div>Calligraphy</div>
@@ -58,7 +58,7 @@ const resume = () => {
             </div>
             <div className='text-start px-1 text-white pt-12 text-xl tracking-wider'>
               <p className='uppercase underline font-bold'>hobbies</p>
-              <div class="grid grid-rows-2 pt-2 grid-flow-col gap-4 justify-center text-sm">
+              <div className="grid grid-rows-2 pt-2 grid-flow-col gap-4 justify-center text-sm">
                 <MdHeadphones size={50}/>
                 <ImAirplane size={40}/>
                 <GiSoccerBall size={45}/>
@@ -69,7 +69,7 @@ const resume = () => {
             </div>
             <div className='px-1 text-white pt-12 text-xl tracking-wider'>
               <p className='uppercase underline font-bold'>socials</p>
-              <div class="grid grid-cols-4 px-4 py-4 gap-2 text-sm justify-center cursor-pointer">
+              <div className="grid grid-cols-4 px-4 py-4 gap-2 text-sm justify-center cursor-pointer">
                 <a href='https://www.linkedin.com/in/muhammad-salim-3ba9521a2' target='_blank' rel='noreferrer'>
                 <FaLinkedinIn size={20}/>
                 </a>
@@ -99,7 +99,7 @@ const resume = () => {
           </header>
           <div className='text-start px-1 text-black pt-6 text-xl tracking-wider p-2 ml-2'>
               <p className='uppercase underline font-bold text-start'>career objective</p>
-              <div class="text-start text-sm">
+              <div className="text-start text-sm">
                 <p>
                 Aiming to join an established organization as a Web Developer 
                 where I can contribute my skills and experience to the team’s 
