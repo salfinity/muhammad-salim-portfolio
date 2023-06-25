@@ -12,7 +12,7 @@ const resume = () => {
         <title>Salim | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I&apos;m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.svg' />
       </Head>
@@ -102,7 +102,7 @@ const resume = () => {
               <div className="text-start text-sm">
                 <p>
                 Aiming to join an established organization as a Web Developer 
-                where I can contribute my skills and experience to the team’s 
+                where I can contribute my skills and experience to the team&apos;s 
                 success. By obtaining the position of Web Developer with the 
                 ability to create visually appealing websites using some of the
                 most powerful technologies such as ReactJs, NextJs and TailwindCSS.
@@ -124,7 +124,7 @@ const resume = () => {
                         </tr>
                         <tr>
                           <td className='font-extrabold text-2xl'>2021</td>
-                          <td>CS50's Introduction to Computer Science - <span className='font-bold'>Harvard</span></td>
+                          <td>CS50&apos;s Introduction to Computer Science - <span className='font-bold'>Harvard</span></td>
                         </tr>
                         <tr>
                           <td className='font-extrabold text-2xl'>2023</td>
