@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
+import { RiRadioButtonFill, RiArrowGoBackFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const property = () => {
@@ -25,7 +25,7 @@ const property = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2><span className='text-red-600'>Over</span><span>view</span></h2>
           <p>
             This app was built using React JS and is hosted on Firebase. Users
             are able to search properties based on an Address, City, or ZIP code
@@ -76,9 +76,11 @@ const property = () => {
             </div>
           </div>
         </div>
+        <button className='p-3'>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='underline text-white cursor-pointer items-center flex pl-16 gap-2'><RiArrowGoBackFill className='bold'/> Back</p>
         </Link>
+        </button>
       </div>
     </div>
   );

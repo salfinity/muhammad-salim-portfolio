@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import twitchImg from '../public/assets/projects/twitch.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
+import twitchImg from '../public/assets/projects/twitch.png';
+import { RiRadioButtonFill, RiArrowGoBackFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const twitch = () => {
@@ -25,7 +25,7 @@ const twitch = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2><span className='text-red-600'>Over</span><span>view</span></h2>
           <p>
             This appplication was built using NEXT.JS and is styled with
             Tailwind CSS. The application is hosted statically using Vercel.
@@ -36,14 +36,14 @@ const twitch = () => {
             the Image component, built in routing, and Next/Auth Context.
           </p>
           <a
-            href='https://twitch-nextjs-tailwind.vercel.app/'
+            href='https://twitch-cloned.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/fireclint/twitch-nextjs-tailwind'
+            href='https://github.com/salfinity/twitch-cloned'
             target='_blank'
             rel='noreferrer'
           >
@@ -76,9 +76,11 @@ const twitch = () => {
             </div>
           </div>
         </div>
+        <button className='p-3'>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+          <p className='underline text-white cursor-pointer items-center flex pl-16 gap-2'><RiArrowGoBackFill className='bold'/> Back</p>
         </Link>
+        </button>
       </div>
     </div>
   );
