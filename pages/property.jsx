@@ -28,13 +28,9 @@ const property = () => {
           <h2><span className='text-red-600'>Over</span><span>view</span></h2>
           <p>
             This app was built using HTML, CSS, JavaScript and is hosted on Vercel. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            this is just a simple one page HTML-CSS-Javascript portfolio website. I created 
+            it with the aim of sharing my idea with other developers on how to achieve something similar 
+            to this.
           </p>
           <a
             href='https://github.com/salfinity/html-css-portfolio'
