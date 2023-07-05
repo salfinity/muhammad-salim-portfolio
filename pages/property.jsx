@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import propertyImg from '../public/assets/projects/property.png';
 import { RiRadioButtonFill, RiArrowGoBackFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -17,8 +17,8 @@ const property = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Portfolio Website</h2>
+          <h3>HTML / CSS / Javascript</h3>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const property = () => {
           <p>Project</p>
           <h2><span className='text-red-600'>Over</span><span>view</span></h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
+            This app was built using HTML, CSS, JavaScript and is hosted on Vercel. Users
             are able to search properties based on an Address, City, or ZIP code
             to retrieve a list of active properties currently for sale. You will
             be able to view property information as well as the specific
@@ -37,14 +37,14 @@ const property = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/salfinity/html-css-portfolio'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://html-css-portfolio-one.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -56,22 +56,16 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> Vercel
               </p>
             </div>
           </div>
