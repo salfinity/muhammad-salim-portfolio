@@ -33,7 +33,7 @@ const showmax = () => {
             This application supports user authentication using NextAuth and supports google and fakes up
             the facebook authentification to be removed as it is in Showmax. Users are able to create 
             a new account using any type of email address and can log in with same details. This is made 
-            possble by creating a Showmax cloud storage database at the time of user registration in mongoDb. 
+            possble through creating a Showmax cloud storage database at the time of user registration in mongoDb. 
           </p>
           <a
             href='https://github.com/salfinity/showmax-cloned'
