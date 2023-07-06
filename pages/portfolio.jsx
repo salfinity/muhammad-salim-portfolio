@@ -4,7 +4,7 @@ import propertyImg from '../public/assets/projects/property.jpg';
 import { RiRadioButtonFill, RiArrowGoBackFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const portfolio = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -17,8 +17,8 @@ const property = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Portfolio Website</h2>
+          <h3>HTML / CSS / Javascript</h3>
         </div>
       </div>
 
@@ -27,14 +27,10 @@ const property = () => {
           <p>Project</p>
           <h2><span className='text-red-600'>Over</span><span>view</span></h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using HTML, CSS, JavaScript and is hosted on Vercel. Users
+            this is just a simple one page HTML-CSS-Javascript portfolio website. I created 
+            it with the aim of sharing my idea with other developers on how to achieve something similar 
+            to this.
           </p>
           <a
             href='https://github.com/fireclint/property-finder'
@@ -86,4 +82,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default portfolio;
