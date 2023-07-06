@@ -17,10 +17,10 @@ const Projects = () => {
         <h2 className='py-4 text-center'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='Portfolio website'
             backgroundImg={portfolioImg}
-            projectUrl='/property'
-            tech='React JS'
+            projectUrl='/portfolio'
+            tech='HTML,CSS & JS'
           />
           <ProjectItem
             title='Showmax Movie App'
