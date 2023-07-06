@@ -40,7 +40,7 @@ const portfolio = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://muhammad-salim-portfolio.vercel.app/'
+            href='https://html-css-portfolio-one.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
