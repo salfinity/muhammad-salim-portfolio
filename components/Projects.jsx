@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.png'
+import portfolioImg from '../public/assets/projects/portfolio.png'
 import showmaxImg from '../public/assets/projects/showmax.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.png'
@@ -18,7 +18,7 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Portfolio Website'
-            backgroundImg={propertyImg}
+            backgroundImg={portfolioImg}
             projectUrl='/property'
             tech='React JS'
           />
