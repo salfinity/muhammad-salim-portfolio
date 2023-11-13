@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { BsWhatsapp } from 'react-icons/bs';
+import { FaFacebookF, FaInstagram} from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
 
@@ -28,9 +28,9 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Muhammad Salim</h2>
-                <p>Front-End Developer</p>
+                <p>CEO SALFINITY</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
+                  I am available for Enquiries or Business engagement. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
@@ -38,21 +38,21 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/muhammad-salim-3ba9521a2'
+                    href='https://www.facebook.com/people/Salim-Finity/100004451387192/?paipv=0&eav=AfbEVltR7ezqOuP0qrhizztfy2V89NowST81WWtsenBcthvCTJOW7a7PFi8ugVlpTLI&_rdr'
                     target='_blank'
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaLinkedinIn />
+                      <FaFacebookF/>
                     </div>
                   </a>
                   <a
-                    href='https://github.com/salfinity'
+                    href='https://www.instagram.com/salfinity/'
                     target='_blank'
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <FaGithub />
+                      <FaInstagram />
                     </div>
                   </a>
                   <a 
@@ -64,13 +64,14 @@ const Contact = () => {
                     <AiOutlineMail />
                   </div>
                   </a>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                  <a href='https://wa.me/254702802937'
+                     target='_blank'
+                     rel='noreferrer'
+                   >
+                      <div className='rounded-full text-black bg-neutral-100 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <BsWhatsapp />
+                    </div>
+                   </a> 
                 </div>
               </div>
             </div>

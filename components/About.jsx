@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/salim.jpeg';
 
 const About = () => {
   return (
@@ -11,24 +11,31 @@ const About = () => {
           <p className='uppercase text-5xl tracking-widest text-center'>
             <span className='text-red-600'>A</span><span className='text-zinc-900'>bou</span><span className='text-red-600'>t</span>
           </p>
-          <h2 className='py-4 text-center'>Who I Am</h2>
+          <h2 className='py-4 text-center'>Know Salfinity</h2>
           <p className='py-2 text-zinc-900'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Tailwind CSS, Javascript, NextJs and
-            React, I am a quick learner and can pick up new technology stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the specific job.
+          Salim, also known as "Salim-finity," is a versatile artist with an insatiable passion for creativity.
+          His talent spans a multitude of art forms, including pencil work, paintings, Arabic calligraphy, photography,
+          videography, graphic design, and web design. 
           </p>
           <p className='py-2 text-zinc-900'>
-            I started web developement in 2020 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Salfinity, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          Driven by a desire to make a sustainable living from his art, Salim chose diversity as his path.
+          Salfinity is the embodiment of this choice, offering a wide range of artistic creations and designs 
+          for various purposes, from home decor to event settings.
+          </p>
+          <p className='py-2 text-zinc-900'>
+          Salim's pencil work and paintings showcase his ability to merge traditional techniques with modern aesthetics.
+          His Arabic calligraphy captures the intricacies of this art form, reflecting his appreciation for culture and language. 
+          Through his lens, photography reveals the beauty in everyday life.
+          </p>
+          <p className='py-2 text-zinc-900'>
+          Videography and graphic design are additional dimensions of Salim's artistic talents. He skillfully breathes life
+          into stories and concepts through visual storytelling, and his web design expertise ensures an engaging online presence.
+          </p>
+          <p className='py-2 text-zinc-900'>
+          Salfinity is more than just an art studio; it's a community where art enthusiasts can connect and learn from a passionate creator.
+          Salim's commitment to his audience shines through in every piece of work he produces. Salim, the creative force behind Salfinity, 
+          is a multi-talented artist who has harnessed his diverse skills to offer a platform where art and design converge. 
+          Welcome to Salfinity, where art knows no bounds, and your artistic dreams find their true expression.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-neutral-400 underline cursor-pointer'>

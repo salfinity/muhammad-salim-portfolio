@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.svg'
+import DarkModeButton from './DarkModeButton';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -50,8 +51,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-16 shadow-2xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-16 z-[100]'
+          ? 'fixed w-full h-18 shadow-2xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-18 z-[100]'
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
@@ -61,13 +62,14 @@ const Navbar = () => {
               src={NavLogo}
               alt='/'
               width='150'
-              height='80'
-              className='cursor-pointer'
+              height='50'
+              className='cursor-pointer pt-3 py-3 px-4'
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex mr-8'>
+          <DarkModeButton />
             <li className='ml-6 text-sm uppercase p-2 hover:border hover:bg-white hover:text-zinc-900 rounded-full'>
               <Link href='/'>Home</Link>
             </li>
@@ -79,9 +81,6 @@ const Navbar = () => {
             </li>
             <li className='ml-6 text-sm uppercase p-2 hover:border hover:bg-white hover:text-zinc-900 rounded-full'>
               <Link href='/#projects'>Projects</Link>
-            </li>
-            <li className='ml-6 text-sm uppercase p-2 hover:border hover:bg-white hover:text-zinc-900 rounded-full'>
-              <Link href='/resume'>Resume</Link>
             </li>
             <li className='ml-6 text-sm uppercase p-2 hover:border hover:bg-white hover:text-zinc-900 rounded-full'>
               <Link href='/#contact'>Contact</Link>
@@ -162,11 +161,6 @@ const Navbar = () => {
               <Link href='/#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm hover:border-4 hover:bg-white hover:text-zinc-900 rounded-full text-center'>
                   Projects
-                </li>
-              </Link>
-              <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:border-4 hover:bg-white hover:text-zinc-900 rounded-full text-center'>
-                  Resume
                 </li>
               </Link>
               <Link href='/#contact'>
